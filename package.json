@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "a1",
+  "version": "1.0.0",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/webpack",
+      "**/webpack-cli",
+      "**/webpack-dev-server",
+      "**/@pv/workspace-a",
+      "**/@pv/workspace-b"
+    ]
+  }
+}
